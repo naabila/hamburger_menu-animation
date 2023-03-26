@@ -291,3 +291,12 @@ Here are [some](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA)
 ## Browser Support
 
 Animations use CSS3 3D transforms (`translate3d` whenever possible for GPU acceleration), which is supported by most browsers (not supported by IE9 and older and Opera Mini). For detailed browser support, check [caniuse.com](http://caniuse.com/#search=translate3d).
+
+
+#to activate
+
+jQuery(document).ready(function () {
+	//hamburger
+    $('.hamburger').click(()=>
+    $('.hamburger').toggleClass('is-active') )
+});
